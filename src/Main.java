@@ -1,7 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-       int i = 2147483647;
-       i++;
+     boolean isCompleted = true;
+       int i = 11;
+
+        if(i < 10 && i >= 60 || i == 9); {
+            System.out.println("true");
+        }
+
         System.out.println(i);
           }
+
 }
