@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         String a;
 
-       int i=60;
+       int i=9;
 
         if(i < 10 && i >= 60 || i == 9) { a = "true";
        }
