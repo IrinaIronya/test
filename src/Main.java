@@ -1,35 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        String a;
-        int i = 9;
-        boolean b = (i < 10 && i >= 60 || i == 9);
+        boolean isTrue = true;
+        int i = 7;
 
-        if(b == true) { a = "true";
-       }
-       else {
-            a = "false";
-
-        }
-        System.out.println(i);
-        System.out.println(a);
-
-        if(i < 10 && i >= 60) { a = "true";
+        if(i<10){ i+=3;
+            System.out.println(i);
+            System.out.println("true");
         }
         else {
-            a = "false";
-
+            i-=3;
+            System.out.println("false");
         }
-        System.out.println(i);
-        System.out.println(a);
-
-        if(i == 9) { a = "true";
-        }
-        else {
-            a = "false";
-
-        }
-        System.out.println(i);
-        System.out.println(a);
 
     }
 
