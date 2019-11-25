@@ -39,7 +39,7 @@ public class Main {
         if (high > i)
             quickSort(array, i, high);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args, int h) {
         int[] x = { 15, -7, 10, 7, 3, -2, 0, 12, 6 };
         System.out.println("Было");
         System.out.println(Arrays.toString(x));
@@ -51,7 +51,6 @@ public class Main {
         System.out.println("Стало");
         System.out.println(Arrays.toString(x));
     }
-
 
     public static void quickSort(long[] array, long low, long high) {
         if (array.length == 0)
@@ -90,7 +89,7 @@ public class Main {
         if (high > i)
             quickSort(array, i, high);
     }
-    public static void main2 (String[] args) {
+    public static void main (String[] args, long h) {
         long[] x = { 15, -7, 10, 7, 3, -2, 0, 12, 6 };
         System.out.println("Было");
         System.out.println(Arrays.toString(x));

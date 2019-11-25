@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Main2 {
 
-    public static void bubbleSort (String[] args) {
+    public static void bubbleSort (String[] args, int b) {
 
         int [] array = {54, 13, 7, 1, 10, 25, 3, 8, 17, 5};
 
@@ -22,11 +22,9 @@ public class Main2 {
         }
         System.out.println(Arrays.toString(array));
     }
+    public static void bubbleSort (String[] args,long b) {
 
-
-    public static void bubbleSort2 (String[] args) {
-
-        long [] array = {54, 13, 7, 1, 10, 25, 3, 8, 17, 5};
+        long [] array = {54, 13, 6, 1, 10, 25, 3, 8, 17, 5};
 
         boolean isSorted = false;
         long t;
