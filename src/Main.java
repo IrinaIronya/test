@@ -51,6 +51,8 @@ public class Main {
         System.out.println("Стало");
         System.out.println(Arrays.toString(x));
     }
+
+
     public static void quickSort(long[] array, long low, long high) {
         if (array.length == 0)
             return;

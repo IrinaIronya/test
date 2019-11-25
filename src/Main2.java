@@ -22,6 +22,8 @@ public class Main2 {
         }
         System.out.println(Arrays.toString(array));
     }
+
+
     public static void bubbleSort2 (String[] args) {
 
         long [] array = {54, 13, 7, 1, 10, 25, 3, 8, 17, 5};
